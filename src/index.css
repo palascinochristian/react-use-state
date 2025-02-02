@@ -1,0 +1,59 @@
+/*---------------
+      RESET 
+---------------*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/*---------------
+      GENERAL 
+---------------*/
+
+body {
+  font-size: 1.1rem;
+  color: #000;
+  background-color: #e5e5e5;
+}
+
+.container {
+  max-width: 75rem;
+  margin: 0 auto;
+}
+
+.accordions > *:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.accordions {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.accordion {
+  background-color: #fff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  align-self: center;
+  max-width: 50%;
+}
+
+.accordion > * {
+  padding: 0.75rem;
+}
+
+.accordion-title {
+  background-color: #f6c344;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.accordion .btn {
+  border: none;
+  font-size: 1.4rem;
+  cursor: pointer;
+  background-color: transparent;
+}
