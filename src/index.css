@@ -50,6 +50,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  min-width: 37.5rem;
 }
 
 .accordion .btn {
@@ -57,4 +58,7 @@ body {
   font-size: 1.4rem;
   cursor: pointer;
   background-color: transparent;
+}
+.accordion-title.closed {
+  background-color: #efefef;
 }
